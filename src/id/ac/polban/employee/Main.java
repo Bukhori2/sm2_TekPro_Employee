@@ -20,5 +20,8 @@ public class Main {
         System.out.println("Employee Name: " + service.getEmployee(1).getName());
         service.raiseSalary(1, 30);
         System.out.println("New Salary: " + service.getEmployee(1).getSalary());
+        System.out.println("Employee Name: " + service.getEmployee(2).getName());
+        service.raiseSalary(2, 20);
+        System.out.println("New Salary: " + service.getEmployee(2).getSalary());
     }
 }

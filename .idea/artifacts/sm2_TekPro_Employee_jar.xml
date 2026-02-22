@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="sm2_TekPro_Employee:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/sm2_TekPro_Employee_jar</output-path>
+    <root id="archive" name="sm2_TekPro_Employee.jar">
+      <element id="module-output" name="sm2_TekPro_Employee" />
+    </root>
+  </artifact>
+</component>

@@ -2,8 +2,8 @@ package id.ac.polban.employee.model;
 
 public class Employee {
 
-    private static int totalEmployee = 0; //
-    private static int totalSalary = 0;
+    private static int totalEmployee = 0;
+    private static int counterId = 1;
 
     private int id;
     private String name;
@@ -12,7 +12,7 @@ public class Employee {
     private double salary;
 
     public Employee(int id, String name, Department department, EmploymentType type, double salary) {
-        this.id = id;
+        this.id = counterId++;
         this.name = name;
         this.department = department;
         this.type = type;
@@ -22,9 +22,6 @@ public class Employee {
 
     public static int getTotalEmployee(){
         return totalEmployee;
-    }
-    public static int getTotalSalary(){
-        return totalSalary;
     }
 
     public int getId() {
